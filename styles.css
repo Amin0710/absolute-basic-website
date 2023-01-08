@@ -1,0 +1,196 @@
+* {
+	margin: 0 auto;
+	padding: 0px;
+	font-family: "Work Sans", sans-serif;
+}
+
+.title {
+	font-weight: 700;
+	font-size: 40px;
+}
+
+.text-primary {
+	color: white;
+}
+.text-secondary {
+	color: #151414;
+}
+
+.btn-primary {
+	color: #005fac;
+	font-weight: 700;
+	font-size: 20px;
+	border: 0;
+	padding: 18px 35px;
+	height: 64px;
+	border-radius: 5px;
+	background: white;
+}
+
+.header {
+	background-image: url("images/banner/banner3.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 808px;
+	width: 1600px;
+}
+
+/* banner styles */
+.banner {
+	display: flex;
+	align-items: center;
+	text-align: right;
+	padding-right: 230px;
+}
+
+.banner-title {
+	padding: 216px 0px 0px 845px;
+	font-size: 65px;
+}
+
+.banner-description {
+	padding: 24px 0px 32px 876px;
+	font-size: 16px;
+	margin-bottom: 30px;
+}
+
+/* main section */
+main {
+	max-width: 1140px;
+	margin: 0 auto;
+}
+section {
+	margin-top: 130px;
+}
+
+/* section 1 styles */
+.failures {
+	display: flex;
+	gap: 87px;
+	text-align: center;
+	margin: 0;
+	text-align: left;
+}
+
+.failures img {
+	border-radius: 50%;
+	padding-top: 10px;
+}
+
+.failures-text {
+	padding-left: 862px;
+}
+
+.failures-title {
+	padding-top: 250px;
+	padding-right: 100px;
+}
+
+.failures-description {
+	font-weight: 400;
+	font-size: 16px;
+	padding-top: 24px;
+	padding-bottom: 16px;
+	line-height: 26px;
+}
+
+.failures ul {
+	padding: 0;
+	list-style: none;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 26px;
+}
+
+.failures ul li:before {
+	content: "X";
+	color: #d81616;
+	font-weight: bold;
+	padding-right: 10px;
+}
+
+/* My plans Section */
+
+.my-plan-title {
+	text-align: center;
+	padding-bottom: 50px;
+}
+
+.plan-container {
+	display: flex;
+	gap: 24px;
+}
+
+.plan {
+	text-align: center;
+}
+
+.plan-title {
+	font-size: 20px;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+.plan-description {
+	color: #757575;
+}
+
+/* positive mindset section */
+
+#positive-mindsets {
+	height: 300px;
+	width: 1140px;
+	background-image: url(images/watch.png),
+		linear-gradient(90deg, #014d8b 0%, rgba(0, 95, 172, 0) 100%);
+	background-repeat: no-repeat, no-repeat;
+	border-radius: 10px;
+	background-blend-mode: overlay;
+	padding-left: 64px;
+}
+
+.positive-title {
+	padding: 59px 617px 24px 0px;
+}
+
+/* footer */
+.sub-title {
+	font-weight: 600;
+	font-size: 25px;
+}
+#footer {
+	margin-top: 130px;
+	height: 577px;
+	width: 1600px;
+	background-color: #151414;
+}
+
+#footer-items {
+	max-width: 1140px;
+	display: flex;
+	padding-top: 130px;
+	justify-content: space-between;
+}
+#footer-items p {
+	padding-top: 18px;
+	padding-right: 331px;
+}
+#footer-items a {
+	text-decoration: none;
+}
+#footer-items img {
+	padding-top: 32px;
+	padding-right: 17px;
+}
+#footer-items input {
+	width: 325px;
+	height: 64px;
+	margin-top: 32px;
+	margin-bottom: 16px;
+	background-color: #151414;
+	border: 1px solid #ffffff;
+	border-radius: 10px;
+	padding-left: 21px;
+}
+#footer-items button {
+	background: #005fac;
+	color: white;
+}
